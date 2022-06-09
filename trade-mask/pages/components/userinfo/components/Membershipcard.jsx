@@ -2,7 +2,7 @@ import React from 'react'
 
 function Membershipcard() {
   return (
-      <div className='relative py-5'>
+      <div className='relative pt-5'>
 
         <div className='bg-slate-900 rounded-lg flex p-5'>
             <div className='w-1/2 p-2'>

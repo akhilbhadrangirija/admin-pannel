@@ -11,7 +11,7 @@ function Dashboard() {
     change:"4.17%"
   }
   return (
-    <div className='p-10 container w-5/6 h-max flex flex-col text-black'>
+    <div className='p-10 container w-5/6 h-full flex flex-col text-black'>
       <Currency {...currency}/>
       <Chart/>
       <div className='flex flex-row mr-2 w-full'>

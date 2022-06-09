@@ -7,8 +7,8 @@ import Dashboard from './components/dashboard/Dashboard'
 export default function Home() {
   return (
     <>
-      <NextSeo title="Simple Usage Example" />
-      <main className=" flex flex-row">
+      <NextSeo title="Trade Mask" />
+      <main className=" flex flex-row h-screen">
       <Sidenav/>
       <Dashboard/>
 
