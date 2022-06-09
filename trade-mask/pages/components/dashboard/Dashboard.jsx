@@ -8,10 +8,10 @@ function Dashboard() {
   const currency = {
     name:"Bitcoin USD(BTC-USD)",
     price:"46541.04",
-    change:"4.17%"
+    change:"4.17"
   }
   return (
-    <div className='p-10 container w-5/6 h-full flex flex-col text-black'>
+    <div className='pt-10 px-7 container w-5/6 h-96 flex flex-col text-black'>
       <Currency {...currency}/>
       <Chart/>
       <div className='flex flex-row mr-2 w-full'>

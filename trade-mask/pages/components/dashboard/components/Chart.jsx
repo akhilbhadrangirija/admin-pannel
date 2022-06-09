@@ -2,8 +2,8 @@ import React from 'react'
 
 function Chart() {
   return (
-    <div className=' h-90 '>
-      <img className='bg-auto'  src="https://miro.medium.com/max/1400/1*huoX84n7u2fNs5B4Px8zlg.png" alt="" />
+    <div>
+      <img className='bg-auto py-10'  src="https://goldprice.org/sites/default/files/inline/images/btc.PNG" alt="" />
     </div>
   )
 }

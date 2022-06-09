@@ -11,7 +11,6 @@ export default function Home() {
       <main className=" flex flex-row h-screen">
       <Sidenav/>
       <Dashboard/>
-
       <Userinfo/>
       </main>
     </>

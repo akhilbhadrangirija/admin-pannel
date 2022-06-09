@@ -1,4 +1,6 @@
 import React from 'react'
+import Percentagechange from '../../Percentagechange'
+import Ticker from '../../Ticker'
 
 function Currencycard() {
   return (
@@ -16,7 +18,11 @@ function Currencycard() {
         
         <div className='p-2 flex flex-row mt-2.5'>
             <div className='w-1/2'>
-                 <div className=' flex bg-green-100 text-green-600  rounded-lg text-sm justify-center'>4.15%</div>
+                <div className='flex flex-row justify-around'>
+                 {/* <div className='ml-2 px-2 flex bg-green-100 text-green-600  rounded-lg text-xs justify-center'>4.15%</div> */}
+                 <Percentagechange value={5.16}/>
+                 <Ticker value={10}/>
+                </div>
                  <h2 className='p-2 ml-2.5 font-semibold'>$23455.12</h2>
             </div>
             <div className='p-2 w-1/2'>

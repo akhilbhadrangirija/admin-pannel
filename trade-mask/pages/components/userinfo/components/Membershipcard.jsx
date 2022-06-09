@@ -24,7 +24,7 @@ function Membershipcard() {
 
             </div>
             <div className='w-1/2 static '>
-                <img className='' src="https://o.remove.bg/downloads/032b003f-a560-4040-85fc-0fd12cc9d8fa/istockphoto-1169752961-612x612-removebg-preview.png" alt="" />
+                <img className='' src="https://media.istockphoto.com/vectors/stacked-cubes-red-top-vector-id1169752961?b=1&k=20&m=1169752961&s=612x612&w=0&h=_s-Vbf2sDWBILBcJ8x_obLDt9J5f5O_7qndJ5c2hObs=" alt="" />
             </div>
         </div>
       </div>
