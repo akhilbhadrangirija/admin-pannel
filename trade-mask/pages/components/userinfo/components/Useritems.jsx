@@ -13,7 +13,8 @@ function Useritems() {
 
     <div className='w-1/2 h-auto pb-5 flex flex-col justify-between'>
         <div className='flex'>
-            <div className='p-2 m-2 rounded-lg h-8 bg-red-200 '>
+            {/* Background-colour need to be dynamic */}
+            <div className='p-2 m-2 ml-0 rounded-lg h-8 bg-red-200 '>
             <Ticker value={-10.4}/>
             </div>
             <div className='text-black m-2'>
@@ -29,7 +30,7 @@ function Useritems() {
     
     <div className='w-1/2 h-auto pb-5 flex flex-col justify-between'>
         <div className='flex'>
-            <div className='p-2 m-2 rounded-lg h-8 bg-green-200 '>
+            <div className='p-2 m-2 ml-0 rounded-lg h-8 bg-green-200 '>
             <Ticker value={15.44}/>
             </div>
             <div className='text-black m-2'>
