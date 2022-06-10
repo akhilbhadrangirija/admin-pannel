@@ -1,6 +1,4 @@
 import React from 'react'
-import Dropdown from './Dropdown'
-
 function Converter() {
   return (
     <div className='text-black flex flex-col'>

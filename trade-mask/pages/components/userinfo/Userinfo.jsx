@@ -7,7 +7,7 @@ import Useritems from './components/Useritems'
 
 function Userinfo() {
   return (
-    <div className='container py-10 px-5 w-2/6 h-full bg-slate-50 flex flex-col'>
+    <div className='container py-10 px-5 w-5/6  h-full bg-slate-50 flex flex-col'>
 
       <User/>
 
