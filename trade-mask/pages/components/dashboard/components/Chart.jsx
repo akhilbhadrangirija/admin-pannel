@@ -1,11 +1,31 @@
-import React from 'react'
+import { useState } from "react/cjs/react.development";
+import LineChart from "./LineChart";
+import { currencyData } from "./Data";
 
-function Chart() {
+function App() {
+  const [coinData, setCoinData] = useState({
+    labels: currencyData.map((data) => data.time),
+    datasets: [
+      {
+        label:"Price",
+        data: currencyData.map((data) => data.price),
+        backgroundColor: [
+          "rgba(75,192,192,1)",
+        ],
+        borderColor: "blue",
+        borderWidth: 2,
+      },
+    ],
+  });
+
   return (
-    <div>
-      <img className='bg-auto py-10'  src="https://goldprice.org/sites/default/files/inline/images/btc.PNG" alt="" />
+    <div className="App">
+      
+      <div style={{ width: 700 }}>
+        <LineChart chartData={coinData} />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Chart
+export default App;
