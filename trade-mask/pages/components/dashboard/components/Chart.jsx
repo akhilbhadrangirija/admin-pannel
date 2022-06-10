@@ -2,7 +2,7 @@ import { useState } from "react/cjs/react.development";
 import LineChart from "./LineChart";
 import { currencyData } from "./Data";
 
-function App() {
+function Chart() {
   const [coinData, setCoinData] = useState({
     labels: currencyData.map((data) => data.time),
     datasets: [
@@ -21,11 +21,11 @@ function App() {
   return (
     <div className="App">
       
-      <div style={{ width: 700 }}>
+      <div style={{ width: 750 }}>
         <LineChart chartData={coinData} />
       </div>
     </div>
   );
 }
 
-export default App;
+export default Chart;

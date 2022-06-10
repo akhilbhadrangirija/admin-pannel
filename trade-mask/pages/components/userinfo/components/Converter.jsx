@@ -7,12 +7,12 @@ function Converter() {
         <h1 className='py-2'>Convert</h1>
         <div className='flex flex-col  '>
           <div className="flex flex-row  justify-between bg-white rounded-xl mt-2">
-            <input className='p-2  rounded-xl' type="text" /> 
+            <input className='p-2 w-full rounded-xl' type="text" /> 
             <button className=" flex felx-row rounded-md bg-orange-50 text-orange-600 text-sm p-2 hover:bg-orange-200">USD <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z"/></svg></button>
           </div>
           <div className="flex flex-row  justify-between bg-white rounded-xl mt-2">
-            <input className='p-2  rounded-xl' type="text" /> 
-            <button className=" flex felx-row rounded-md bg-blue-50 text-blue-600 text-sm p-2 hover:bg-orange-200">ETH <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z"/></svg></button>
+            <input className='p-2 w-full rounded-xl' type="text" /> 
+            <button className=" flex felx-row rounded-md bg-blue-50 text-blue-600 text-sm p-2 hover:bg-blue-200">ETH <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z"/></svg></button>
           </div>
             {/* <Dropdown/> */}
 

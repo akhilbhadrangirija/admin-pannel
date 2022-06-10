@@ -5,13 +5,13 @@ export const currencyData =[
     },
     {
         time:9,
-        price:4430
+        price:4601
     },{
         time:10,
         price:4621
     },{
         time:11,
-        price:4719
+        price:4701
     },{
         time:12,
         price:4653
@@ -27,5 +27,14 @@ export const currencyData =[
     },{
         time:16,
         price:4395
+    },{
+        time:17,
+        price:4435
+    },{
+        time:18,
+        price:4497
+    },{
+        time:19,
+        price:4521
     },
 ]
