@@ -10,6 +10,7 @@ function Chatsection() {
       pic:"https://randomuser.me/api/portraits/thumb/men/75.jpg"
     }]
     )
+    
     setUserChat('')
   }
   const [userChat,setUserChat]=useState('')

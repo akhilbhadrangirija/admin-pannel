@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <NextSeo title="Trade Mask" />
-      <main className=" flex flex-row h-screen">
+      <main className=" flex flex-row  h-screen">
       <Sidenav className="w-2/12 "/>
       <Dashboard className="w-7/12 "/>
       <Userinfo className="w-3/12 "/>
