@@ -1,5 +1,4 @@
 import React from 'react'
-import Dropdown from './Dropdown'
 function Converter() {
   return (
     <div className='text-black flex flex-col'>
@@ -7,11 +6,33 @@ function Converter() {
         <div className='flex flex-col  '>
           <div className="flex flex-row  justify-between bg-white rounded-xl mt-2">
             <input className='p-2 w-full rounded-xl' type="text" /> 
-            <button className=" flex felx-row rounded-md bg-orange-50 text-orange-600 text-sm p-2 hover:bg-orange-200">USD <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z"/></svg></button>
+
+            <select class="select bg-orange-50 text-orange-600 max-w-xs text-sm p-2 hover:bg-orange-200 rounded-lg">
+              <option>BTC</option>
+              <option>USD</option>
+              <option>ETH</option>
+              <option>LUMA</option>
+              <option>POLY</option>
+            </select>
+
+            {/* <button className=" flex felx-row rounded-md bg-orange-50 text-orange-600 text-sm p-2 hover:bg-orange-200">USD <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z"/></svg></button> */}
           </div>
           <div className="flex flex-row  justify-between bg-white rounded-xl mt-2">
             <input className='p-2 w-full rounded-xl' type="text" /> 
-            <button className=" flex felx-row rounded-md bg-blue-50 text-blue-600 text-sm p-2 hover:bg-blue-200">ETH <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z"/></svg></button>
+
+
+            <select class="select bg-blue-50 text-blue-600 max-w-xs text-sm p-2 hover:bg-blue-200 rounded-lg">
+              <option>ETH</option>
+              <option>USD</option>
+              <option>BTC</option>
+              <option>LUMA</option>
+              <option>POLY</option>
+            </select>
+
+
+
+
+            {/* <button className=" flex felx-row rounded-md bg-blue-50 text-blue-600 text-sm p-2 hover:bg-blue-200">ETH <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z"/></svg></button> */}
           </div>
             {/* <Dropdown/> */}
 
@@ -27,8 +48,6 @@ function Converter() {
                 <p>1 USD > ETH</p>
             </div>
         </div>
-        {/* <Dropdown/> */}
-
     </div>
   )
 }
